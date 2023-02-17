@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+}
+
+.Footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_logo{
+    flex: 0.33;
+    padding: 20px;
+    width: 150px;
+}
+.footer_links{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+        flex: 0.33;
+        padding: 40px;
+    
+}
+
+.footer_contact{
+        flex: 0.33;
+        padding: 20px;
+    width: 150px;
+}
+
+.footer_contact >h1{
+    font-size: 1.2rem;
+}
+
+
+@media only screen and (max-width: 1000px) {
+}
+
+@media only screen and (max-width: 500px) {
+    .Footer{
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,154 @@
+.MainPage_hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 6rem;
+}
+
+.MainPage_hero_info > h1 {
+  font-size: 2.5rem;
+}
+.MainPage_hero_info > p {
+  font-weight: 500;
+}
+.MainPage_hero_info > button {
+  margin-top: 4%;
+  color: white;
+  padding: 13px;
+  border-radius: 3px;
+  border: #143867;
+  background-color: #143867;
+  font-size: 1.2rem;
+}
+.underline {
+  height: 8px;
+  background-color: yellow;
+  width: 50px;
+  margin-top: -15px;
+  margin-left: 66%;
+  margin-bottom: -50px;
+  align-items: end;
+  align-self: self-end;
+}
+
+/** --------------------------------- courses css* --------------------------- */
+
+.MainPage_courses > h1 {
+  padding-left: 7rem;
+}
+.MainPage_courses_cards {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: fit-content;
+  overflow-x: auto;
+}
+.MainPage_courses_underline {
+  height: 8px;
+  background-color: yellow;
+  width: 25%;
+  margin-top: -2.5%;
+  margin-left: 8.5%;
+}
+
+/** --------------------------------- Why JY Academy  --------------------------- */
+
+.MainPage_about > h1 {
+  margin-top: 5%;
+  padding-left: 7rem;
+  font-size: 2rem;
+}
+
+.MainPage_about_underline {
+  height: 8px;
+  background-color: yellow;
+  width: 20%;
+  margin-top: -2.5%;
+  margin-left: 8.5%;
+}
+
+.MainPage_about_content {
+  display: flex;
+}
+
+.MainPage_about_content_text {
+  flex: 0.5;
+  display: flex;
+  justify-content: center;
+}
+
+.MainPage_about_content_text > p {
+  width: 450px;
+  font-weight: 500;
+  padding-top: 20px;
+}
+.MainPage_about_content_keyfeatures {
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.MainPage_about_content_keyfeatures_row {
+  display: flex;
+}
+
+.abouticon {
+  width: 70px;
+  height: 70px;
+  padding: 20px;
+}
+
+.MainPage_about_content_keyfeatures_row_content {
+  padding-right: 20px;
+}
+
+.MainPage_about_content_keyfeatures_row_content > h1 {
+  font-size: 1.2rem;
+}
+
+.MainPage_about_content_keyfeatures_row_content > p {
+  font-weight: 500;
+  width: 350px;
+}
+
+/** --------------------------------- Footer --------------------------- */
+
+@media only screen and (max-width: 1000px) {
+}
+
+@media only screen and (max-width: 500px) {
+  .MainPage_hero {
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 50px;
+  }
+
+  .MainPage_hero_info > h1 {
+    font-size: 1.5rem;
+    line-height: 10px;
+  }
+
+  .MainPage_hero_image img {
+    margin-top: 20px;
+    width: 80vw;
+    object-fit: contain;
+  }
+  .MainPage_courses > h1 {
+    padding-left: 20px;
+  }
+
+  .MainPage_about_content {
+    flex-direction: column;
+  }
+  .MainPage_about_content_keyfeatures_row_content{
+    width: 50%;
+    background-color: pink;
+  }
+  .MainPage_about_content_keyfeatures_row_content > p {
+  font-weight: 500;
+  width: fit-content;
+}
+
+}

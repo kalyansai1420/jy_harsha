@@ -1,0 +1,95 @@
+.coursecard {
+  border-radius: 2px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  height: 450px;
+  width: 350px;
+  padding: 25px;
+  margin-left: 2.5%;
+  margin-top: 5%;
+}
+
+.coursecard > p {
+  font-weight: 500;
+  font-size: 18px;
+}
+.coursecard_underline_one {
+  background-color: #3d74df;
+  height: 5px;
+  margin-top: -24px;
+  width: 165px;
+}
+
+.coursecard_underline {
+  background-color: black;
+  width: 100%;
+  height: 2px;
+}
+
+.coursecard_fee {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.coursecard_fee > p {
+  color: gray;
+  font-weight: 500;
+}
+
+.coursecard_fee > h1 {
+  margin-top: -20px;
+}
+
+.coursecard_fee_line {
+  background-color: #3d74df;
+  height: 7px;
+  margin-top: -31px;
+  width: 190px;
+}
+
+.coursecard_fee > p1 {
+  color: red;
+  margin-top: 8px;
+}
+
+.coursecard_content_features_row {
+  display: flex;
+}
+
+.coursecard_content_features_row_features {
+  display: flex;
+  margin: 3px;
+  width: 180px;
+}
+
+.coursecard_content_features_row_features > img {
+  width: 30px;
+  height: 30px;
+  padding: 15px;
+}
+
+.coursecard_content_features_row_features > p {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.coursecard_content_features_row_features_calender > p {
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: -2%;
+}
+
+.coursecard_content_features_row_features_calender > p1 {
+  font-weight: 500;
+  font-size: 16px;
+  color: gray;
+}
+
+@media only screen and (max-width: 500px) {
+  .coursecard {
+    height: fit-content;
+    width: 80vw;
+  }
+}
